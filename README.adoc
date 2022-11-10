@@ -15,6 +15,10 @@ Rishiyur S. Nikhil
 image:Figs/Fig_Under_Construction.png["Under Construction", 10%, 10%]
 THIS DOCUMENT IS STILL UNDER CONSTRUCTION
 
+(This document's source is README.adoc, in "`AsciiDoc`" format.  GitHub
+automatically processes this displays it.  In your own clone: install
+the 'asciidoctor' tool and do `make`.)
+
 This is the repository for a 1/2 day tutorial, "`{FOO}: Architecture
 Research of FPGAs in the Cloud`" at the _29th IEEE International
 Symposium on High-Performance Computer Architecture (HPCA-29)_,
@@ -23,10 +27,9 @@ S. Nikhil (Bluespec, Inc.)
 
 This page describes the plan for the tutorial.
 
-Just before the tutorial, this repo will be updated to contai all the
-necessary artefacts for attendees to replicate the tutorial demos
-(during and after the tutorial), and to use start using it for their
-own research.
+Just before the tutorial, this repo will be updated to contain all the
+necessary artefacts for attendees to be able to replicate the tutorial
+demos, and to then be able to use it for their own research.
 
 // SECTION ================================================================
 

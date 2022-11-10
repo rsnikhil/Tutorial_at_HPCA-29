@@ -140,7 +140,7 @@
        width="15.528187"
        height="15.752821"
        x="171.36075"
-       y="117.39735"
+       y="109.98901"
        ry="0"
        rx="0" />
     <rect
@@ -603,7 +603,7 @@
          id="tspan22857">network support</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="M 181.23369,80.443001 177.23022,126.1572"
+       d="m 181.23369,80.589178 -4.00347,28.983912"
        id="path86371" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
