@@ -12,6 +12,9 @@ Rishiyur S. Nikhil
 
 // SECTION ================================================================
 
+image:Figs/Fig_Under_Construction.png["Under Construction", 10%, 10%]
+THIS DOCUMENT IS STILL UNDER CONSTRUCTION
+
 This is the repository for a 1/2 day tutorial, "`{FOO}: Architecture
 Research of FPGAs in the Cloud`" at the _29th IEEE International
 Symposium on High-Performance Computer Architecture (HPCA-29)_,
@@ -64,8 +67,8 @@ artefact can be written with any design flow that can produce
 synthesizable Verilog (Verilog, SystemVerilog, Bluespec, Chisel, HLS,
 ...).
 
-NOTE: {FOO} is a version of a commercial product from Bluespec, Inc.
-      It is free for tutorial attendees and for academia/research
+NOTE: {FOO} is a variant of a commercial product from Bluespec, Inc.  It
+      is free for tutorial attendees and free for academia/research
       (non-commercial).
 
 // SECTION ================================================================
