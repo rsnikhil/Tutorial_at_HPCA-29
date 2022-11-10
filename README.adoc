@@ -17,7 +17,7 @@ THIS DOCUMENT IS STILL UNDER CONSTRUCTION
 
 (This document's source is `README.adoc`, in "`AsciiDoc`" format.
 GitHub automatically processes this displays it.  In your own clone:
-install the 'asciidoctor' tool and do `make` to produce `README.html`
+install the `asciidoctor` tool and do `make` to produce `README.html`
 which you can view in any browser.)
 
 This is the repository for a 1/2 day tutorial, "`{FOO}: Architecture
