@@ -90,7 +90,7 @@
      id="layer1"
      transform="translate(-20.695509,-51.080267)">
     <rect
-       style="fill:#000000;fill-opacity:0;stroke:#800000;stroke-width:0.265;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#f2f2f2;fill-opacity:0;stroke:#800000;stroke-width:0.265;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect940"
        width="170.22353"
        height="61.212448"
@@ -99,7 +99,7 @@
        rx="0.02300282"
        ry="0.02300282" />
     <rect
-       style="fill:#000000;fill-opacity:0;stroke:#800000;stroke-width:0.265;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#f2f2f2;fill-opacity:0;stroke:#800000;stroke-width:0.265;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect1017"
        width="170.22353"
        height="33.325703"
@@ -108,21 +108,21 @@
        rx="0.02300282"
        ry="0.023002818" />
     <rect
-       style="opacity:1;fill:#f2f2f2;stroke:#000000;stroke-width:0.264998"
+       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.264998;fill-opacity:1"
        id="rect69871"
-       width="23.315248"
-       height="16.097363"
-       x="162.80812"
-       y="64.365944"
+       width="25.262693"
+       height="18.298544"
+       x="162.22632"
+       y="63.248997"
        ry="0"
        rx="0" />
     <rect
-       style="opacity:1;fill:#f2f2f2;stroke:#000000;stroke-width:0.264998"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.264998"
        id="rect69869"
-       width="38.602448"
-       height="29.524809"
-       x="121.84602"
-       y="53.80088"
+       width="40.87429"
+       height="30.053522"
+       x="119.57418"
+       y="53.272167"
        ry="0"
        rx="0" />
     <rect
@@ -135,7 +135,7 @@
        ry="0"
        rx="0" />
     <rect
-       style="opacity:1;fill:#f2f2f2;stroke:#000000;stroke-width:0.264999"
+       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.264999"
        id="rect45668"
        width="15.528187"
        height="15.752821"
@@ -144,7 +144,7 @@
        ry="0"
        rx="0" />
     <rect
-       style="opacity:1;fill:#f2f2f2;stroke:#000000;stroke-width:0.264999"
+       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.264999"
        id="rect26085"
        width="37.770485"
        height="22.121611"
@@ -157,80 +157,80 @@
        id="rect31"
        width="7.9102807"
        height="13.175948"
-       x="123.46478"
-       y="55.250713"
+       x="121.8773"
+       y="54.721546"
        ry="0"
        rx="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="127.26936"
-       y="62.994431"
+       x="125.68186"
+       y="62.465263"
        id="text1699"><tspan
          sodipodi:role="line"
          id="tspan1697"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="127.26936"
-         y="62.994431">CPU</tspan></text>
+         x="125.68186"
+         y="62.465263">CPU</tspan></text>
     <rect
        style="opacity:1;fill:#ccffaa;stroke:#000000;stroke-width:0.264999"
        id="rect14251"
        width="20.189444"
        height="13.150253"
-       x="138.81055"
-       y="55.250713"
+       x="137.22307"
+       y="54.721546"
        ry="0"
        rx="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="148.80977"
-       y="59.040737"
+       x="147.22229"
+       y="58.51157"
        id="text14255"><tspan
          sodipodi:role="line"
          id="tspan14253"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="148.80977"
-         y="59.040737">Tightly-</tspan><tspan
+         x="147.22229"
+         y="58.51157">Tightly-</tspan><tspan
          sodipodi:role="line"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="148.80977"
-         y="63.009487"
+         x="147.22229"
+         y="62.48032"
          id="tspan14665">coupled</tspan><tspan
          sodipodi:role="line"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="148.80977"
-         y="66.978233"
+         x="147.22229"
+         y="66.449066"
          id="tspan14757">accelerator</tspan></text>
     <rect
        style="opacity:1;fill:#ccffaa;stroke:#000000;stroke-width:0.264999"
        id="rect20313"
        width="35.471584"
        height="13.175948"
-       x="123.46478"
-       y="68.479897"
+       x="121.8773"
+       y="67.950729"
        ry="0"
        rx="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="141.20042"
-       y="72.047127"
+       x="139.61295"
+       y="71.51796"
        id="text20317"><tspan
          sodipodi:role="line"
          id="tspan20315"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="141.20042"
-         y="72.047127">Memory</tspan><tspan
+         x="139.61295"
+         y="71.51796">Memory</tspan><tspan
          sodipodi:role="line"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="141.20042"
-         y="76.015877"
+         x="139.61295"
+         y="75.48671"
          id="tspan21348">subystem</tspan><tspan
          sodipodi:role="line"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="141.20042"
-         y="79.984627"
+         x="139.61295"
+         y="79.45546"
          id="tspan21922">(caches, MMUs, ...)</tspan></text>
     <rect
        style="opacity:1;fill:#ffe680;stroke:#000000;stroke-width:0.264998"
@@ -603,31 +603,31 @@
          id="tspan22857">network support</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 181.23369,80.589178 -4.00347,28.983912"
+       d="M 181.23369,81.623429 177.23022,109.579"
        id="path86371" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 142.04475,83.027406 5.87436,15.423857"
+       d="m 142.04475,83.413127 5.87436,15.044991"
        id="path86013" />
     <rect
        style="opacity:1;fill:#ccffaa;stroke:#000000;stroke-width:0.264999"
        id="rect1114"
        width="7.9102807"
        height="13.175948"
-       x="131.40224"
-       y="55.250713"
+       x="129.81476"
+       y="54.721546"
        ry="0"
        rx="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="135.20677"
-       y="62.994431"
+       x="133.61929"
+       y="62.465263"
        id="text1118"><tspan
          sodipodi:role="line"
          id="tspan1116"
          style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="135.20677"
-         y="62.994431">CPU</tspan></text>
+         x="133.61929"
+         y="62.465263">CPU</tspan></text>
   </g>
 </svg>
