@@ -1,0 +1,394 @@
+
+cat.RV64.linux.elf:     file format elf64-littleriscv
+cat.RV64.linux.elf
+architecture: riscv:rv64, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00000000000105a0
+
+Program Header:
+    PHDR off    0x0000000000000040 vaddr 0x0000000000010040 paddr 0x0000000000010040 align 2**3
+         filesz 0x0000000000000230 memsz 0x0000000000000230 flags r--
+  INTERP off    0x0000000000000270 vaddr 0x0000000000010270 paddr 0x0000000000010270 align 2**0
+         filesz 0x0000000000000021 memsz 0x0000000000000021 flags r--
+0x70000003 off    0x000000000000106d vaddr 0x0000000000000000 paddr 0x0000000000000000 align 2**0
+         filesz 0x0000000000000035 memsz 0x0000000000000000 flags r--
+    LOAD off    0x0000000000000000 vaddr 0x0000000000010000 paddr 0x0000000000010000 align 2**12
+         filesz 0x0000000000000764 memsz 0x0000000000000764 flags r-x
+    LOAD off    0x0000000000000df8 vaddr 0x0000000000011df8 paddr 0x0000000000011df8 align 2**12
+         filesz 0x0000000000000248 memsz 0x0000000000000260 flags rw-
+ DYNAMIC off    0x0000000000000e10 vaddr 0x0000000000011e10 paddr 0x0000000000011e10 align 2**3
+         filesz 0x00000000000001f0 memsz 0x00000000000001f0 flags rw-
+    NOTE off    0x0000000000000294 vaddr 0x0000000000010294 paddr 0x0000000000010294 align 2**2
+         filesz 0x0000000000000020 memsz 0x0000000000000020 flags r--
+EH_FRAME off    0x0000000000000720 vaddr 0x0000000000010720 paddr 0x0000000000010720 align 2**2
+         filesz 0x0000000000000014 memsz 0x0000000000000014 flags r--
+   STACK off    0x0000000000000000 vaddr 0x0000000000000000 paddr 0x0000000000000000 align 2**4
+         filesz 0x0000000000000000 memsz 0x0000000000000000 flags rw-
+   RELRO off    0x0000000000000df8 vaddr 0x0000000000011df8 paddr 0x0000000000011df8 align 2**0
+         filesz 0x0000000000000208 memsz 0x0000000000000208 flags r--
+
+Dynamic Section:
+  NEEDED               libm.so.6
+  NEEDED               libc.so.6
+  PREINIT_ARRAY        0x0000000000011df8
+  PREINIT_ARRAYSZ      0x0000000000000008
+  INIT_ARRAY           0x0000000000011e00
+  INIT_ARRAYSZ         0x0000000000000008
+  FINI_ARRAY           0x0000000000011e08
+  FINI_ARRAYSZ         0x0000000000000008
+  HASH                 0x00000000000102b8
+  GNU_HASH             0x00000000000102f0
+  STRTAB               0x0000000000010408
+  SYMTAB               0x0000000000010330
+  STRSZ                0x0000000000000093
+  SYMENT               0x0000000000000018
+  DEBUG                0x0000000000000000
+  PLTGOT               0x0000000000012000
+  PLTRELSZ             0x0000000000000048
+  PLTREL               0x0000000000000007
+  JMPREL               0x0000000000010500
+  RELA                 0x00000000000104d0
+  RELASZ               0x0000000000000078
+  RELAENT              0x0000000000000018
+  VERNEED              0x00000000000104b0
+  VERNEEDNUM           0x0000000000000001
+  VERSYM               0x000000000001049c
+
+Version References:
+  required from libc.so.6:
+    0x06969187 0x00 02 GLIBC_2.27
+
+Sections:
+Idx Name          Size      VMA               LMA               File off  Algn
+  0 .interp       00000021  0000000000010270  0000000000010270  00000270  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .note.ABI-tag 00000020  0000000000010294  0000000000010294  00000294  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .hash         00000038  00000000000102b8  00000000000102b8  000002b8  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  3 .gnu.hash     0000003c  00000000000102f0  00000000000102f0  000002f0  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .dynsym       000000d8  0000000000010330  0000000000010330  00000330  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .dynstr       00000093  0000000000010408  0000000000010408  00000408  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .gnu.version  00000012  000000000001049c  000000000001049c  0000049c  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .gnu.version_r 00000020  00000000000104b0  00000000000104b0  000004b0  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .rela.dyn     00000030  00000000000104d0  00000000000104d0  000004d0  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .rela.plt     00000048  0000000000010500  0000000000010500  00000500  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .plt          00000050  0000000000010550  0000000000010550  00000550  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .text         0000017e  00000000000105a0  00000000000105a0  000005a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .eh_frame_hdr 00000014  0000000000010720  0000000000010720  00000720  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .eh_frame     0000002c  0000000000010738  0000000000010738  00000738  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .preinit_array 00000008  0000000000011df8  0000000000011df8  00000df8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .init_array   00000008  0000000000011e00  0000000000011e00  00000e00  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .fini_array   00000008  0000000000011e08  0000000000011e08  00000e08  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 17 .dynamic      000001f0  0000000000011e10  0000000000011e10  00000e10  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 18 .got          00000030  0000000000012000  0000000000012000  00001000  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 19 .sdata        00000010  0000000000012030  0000000000012030  00001030  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 20 .bss          00000018  0000000000012040  0000000000012040  00001040  2**3
+                  ALLOC
+ 21 .comment      0000002d  0000000000000000  0000000000000000  00001040  2**0
+                  CONTENTS, READONLY
+ 22 .riscv.attributes 00000035  0000000000000000  0000000000000000  0000106d  2**0
+                  CONTENTS, READONLY
+ 23 .debug_aranges 000000d0  0000000000000000  0000000000000000  000010b0  2**4
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 24 .debug_info   0000097a  0000000000000000  0000000000000000  00001180  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 25 .debug_abbrev 00000386  0000000000000000  0000000000000000  00001afa  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 26 .debug_line   000002f3  0000000000000000  0000000000000000  00001e80  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 27 .debug_frame  000000a8  0000000000000000  0000000000000000  00002178  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 28 .debug_str    000006a0  0000000000000000  0000000000000000  00002220  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 29 .debug_line_str 0000033e  0000000000000000  0000000000000000  000028c0  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 30 .debug_loclists 0000012b  0000000000000000  0000000000000000  00002bfe  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+SYMBOL TABLE:
+0000000000010270 l    d  .interp	0000000000000000              .interp
+0000000000010294 l    d  .note.ABI-tag	0000000000000000              .note.ABI-tag
+00000000000102b8 l    d  .hash	0000000000000000              .hash
+00000000000102f0 l    d  .gnu.hash	0000000000000000              .gnu.hash
+0000000000010330 l    d  .dynsym	0000000000000000              .dynsym
+0000000000010408 l    d  .dynstr	0000000000000000              .dynstr
+000000000001049c l    d  .gnu.version	0000000000000000              .gnu.version
+00000000000104b0 l    d  .gnu.version_r	0000000000000000              .gnu.version_r
+00000000000104d0 l    d  .rela.dyn	0000000000000000              .rela.dyn
+0000000000010500 l    d  .rela.plt	0000000000000000              .rela.plt
+0000000000010550 l    d  .plt	0000000000000000              .plt
+00000000000105a0 l    d  .text	0000000000000000              .text
+0000000000010720 l    d  .eh_frame_hdr	0000000000000000              .eh_frame_hdr
+0000000000010738 l    d  .eh_frame	0000000000000000              .eh_frame
+0000000000011df8 l    d  .preinit_array	0000000000000000              .preinit_array
+0000000000011e00 l    d  .init_array	0000000000000000              .init_array
+0000000000011e08 l    d  .fini_array	0000000000000000              .fini_array
+0000000000011e10 l    d  .dynamic	0000000000000000              .dynamic
+0000000000012000 l    d  .got	0000000000000000              .got
+0000000000012030 l    d  .sdata	0000000000000000              .sdata
+0000000000012040 l    d  .bss	0000000000000000              .bss
+0000000000000000 l    d  .comment	0000000000000000              .comment
+0000000000000000 l    d  .riscv.attributes	0000000000000000              .riscv.attributes
+0000000000000000 l    d  .debug_aranges	0000000000000000              .debug_aranges
+0000000000000000 l    d  .debug_info	0000000000000000              .debug_info
+0000000000000000 l    d  .debug_abbrev	0000000000000000              .debug_abbrev
+0000000000000000 l    d  .debug_line	0000000000000000              .debug_line
+0000000000000000 l    d  .debug_frame	0000000000000000              .debug_frame
+0000000000000000 l    d  .debug_str	0000000000000000              .debug_str
+0000000000000000 l    d  .debug_line_str	0000000000000000              .debug_line_str
+0000000000000000 l    d  .debug_loclists	0000000000000000              .debug_loclists
+0000000000000000 l    df *ABS*	0000000000000000              abi-note.c
+0000000000010294 l     O .note.ABI-tag	0000000000000020              __abi_tag
+0000000000000000 l    df *ABS*	0000000000000000              start.o
+00000000000105ce l       .text	0000000000000000              load_gp
+0000000000000000 l    df *ABS*	0000000000000000              init.c
+0000000000000000 l    df *ABS*	0000000000000000              static-reloc.c
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+00000000000105da l     F .text	0000000000000000              deregister_tm_clones
+00000000000105f8 l     F .text	0000000000000000              register_tm_clones
+0000000000010620 l     F .text	0000000000000000              __do_global_dtors_aux
+0000000000012050 l     O .bss	0000000000000001              completed.0
+0000000000011e08 l     O .fini_array	0000000000000000              __do_global_dtors_aux_fini_array_entry
+0000000000010642 l     F .text	0000000000000000              frame_dummy
+0000000000011e00 l     O .init_array	0000000000000000              __frame_dummy_init_array_entry
+0000000000000000 l    df *ABS*	0000000000000000              cat.c
+0000000000000000 l    df *ABS*	0000000000000000              elf-init.c
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+0000000000010760 l     O .eh_frame	0000000000000000              __FRAME_END__
+0000000000010550 l     O .plt	0000000000000000              _PROCEDURE_LINKAGE_TABLE_
+0000000000011e08 l       .init_array	0000000000000000              __init_array_end
+0000000000011e10 l     O .dynamic	0000000000000000              _DYNAMIC
+0000000000011e00 l       .init_array	0000000000000000              __init_array_start
+0000000000010720 l       .eh_frame_hdr	0000000000000000              __GNU_EH_FRAME_HDR
+0000000000012028 l     O .got	0000000000000000              _GLOBAL_OFFSET_TABLE_
+000000000001071c g     F .text	0000000000000002              __libc_csu_fini
+0000000000012040 g     O .bss	0000000000000008              stdin@GLIBC_2.27
+0000000000000000  w      *UND*	0000000000000000              _ITM_deregisterTMCloneTable
+0000000000012000  w      .got	0000000000000000              data_start
+0000000000012058 g       .bss	0000000000000000              __BSS_END__
+0000000000012040 g       .sdata	0000000000000000              _edata
+0000000000012030 g       .sdata	0000000000000000              __SDATA_BEGIN__
+0000000000012000 g       .got	0000000000000000              __DATA_BEGIN__
+0000000000010570       F *UND*	0000000000000000              __libc_start_main@GLIBC_2.27
+0000000000010580       F *UND*	0000000000000000              fputc@GLIBC_2.27
+0000000000012000 g       .got	0000000000000000              __data_start
+0000000000012038 g     O .sdata	0000000000000000              .hidden __dso_handle
+0000000000012030 g     O .sdata	0000000000000004              _IO_stdin_used
+00000000000106c4 g     F .text	0000000000000058              __libc_csu_init
+0000000000012058 g       .bss	0000000000000000              _end
+00000000000105a0 g     F .text	000000000000002e              _start
+0000000000012800 g       *ABS*	0000000000000000              __global_pointer$
+0000000000012040 g       .bss	0000000000000000              __bss_start
+0000000000010644 g     F .text	0000000000000080              main
+0000000000010590       F *UND*	0000000000000000              fgetc@GLIBC_2.27
+0000000000012000 g     O .got	0000000000000000              .hidden __TMC_END__
+0000000000000000  w      *UND*	0000000000000000              _ITM_registerTMCloneTable
+0000000000012048 g     O .bss	0000000000000008              stdout@GLIBC_2.27
+
+
+
+Disassembly of section .plt:
+
+0000000000010550 <_PROCEDURE_LINKAGE_TABLE_>:
+   10550:	97 23 00 00 33 03 c3 41 03 be 03 ab 13 03 43 fd     .#..3..A......C.
+   10560:	93 82 03 ab 13 53 13 00 83 b2 82 00 67 00 0e 00     .....S......g...
+
+0000000000010570 <__libc_start_main@plt>:
+   10570:	00002e17          	auipc	t3,0x2
+   10574:	aa0e3e03          	ld	t3,-1376(t3) # 12010 <__libc_start_main@GLIBC_2.27>
+   10578:	000e0367          	jalr	t1,t3
+   1057c:	00000013          	nop
+
+0000000000010580 <fputc@plt>:
+   10580:	00002e17          	auipc	t3,0x2
+   10584:	a98e3e03          	ld	t3,-1384(t3) # 12018 <fputc@GLIBC_2.27>
+   10588:	000e0367          	jalr	t1,t3
+   1058c:	00000013          	nop
+
+0000000000010590 <fgetc@plt>:
+   10590:	00002e17          	auipc	t3,0x2
+   10594:	a90e3e03          	ld	t3,-1392(t3) # 12020 <fgetc@GLIBC_2.27>
+   10598:	000e0367          	jalr	t1,t3
+   1059c:	00000013          	nop
+
+Disassembly of section .text:
+
+00000000000105a0 <_start>:
+   105a0:	02e000ef          	jal	ra,105ce <load_gp>
+   105a4:	87aa                	mv	a5,a0
+   105a6:	00000517          	auipc	a0,0x0
+   105aa:	09e50513          	addi	a0,a0,158 # 10644 <main>
+   105ae:	6582                	ld	a1,0(sp)
+   105b0:	0030                	addi	a2,sp,8
+   105b2:	ff017113          	andi	sp,sp,-16
+   105b6:	00000697          	auipc	a3,0x0
+   105ba:	10e68693          	addi	a3,a3,270 # 106c4 <__libc_csu_init>
+   105be:	00000717          	auipc	a4,0x0
+   105c2:	15e70713          	addi	a4,a4,350 # 1071c <__libc_csu_fini>
+   105c6:	880a                	mv	a6,sp
+   105c8:	fa9ff0ef          	jal	ra,10570 <__libc_start_main@plt>
+   105cc:	9002                	ebreak
+
+00000000000105ce <load_gp>:
+   105ce:	00002197          	auipc	gp,0x2
+   105d2:	23218193          	addi	gp,gp,562 # 12800 <__global_pointer$>
+   105d6:	8082                	ret
+	...
+
+00000000000105da <deregister_tm_clones>:
+   105da:	00002517          	auipc	a0,0x2
+   105de:	a2650513          	addi	a0,a0,-1498 # 12000 <__TMC_END__>
+   105e2:	00002797          	auipc	a5,0x2
+   105e6:	a1e78793          	addi	a5,a5,-1506 # 12000 <__TMC_END__>
+   105ea:	00a78663          	beq	a5,a0,105f6 <deregister_tm_clones+0x1c>
+   105ee:	00000793          	li	a5,0
+   105f2:	c391                	beqz	a5,105f6 <deregister_tm_clones+0x1c>
+   105f4:	8782                	jr	a5
+   105f6:	8082                	ret
+
+00000000000105f8 <register_tm_clones>:
+   105f8:	00002517          	auipc	a0,0x2
+   105fc:	a0850513          	addi	a0,a0,-1528 # 12000 <__TMC_END__>
+   10600:	00002597          	auipc	a1,0x2
+   10604:	a0058593          	addi	a1,a1,-1536 # 12000 <__TMC_END__>
+   10608:	8d89                	sub	a1,a1,a0
+   1060a:	4035d793          	srai	a5,a1,0x3
+   1060e:	91fd                	srli	a1,a1,0x3f
+   10610:	95be                	add	a1,a1,a5
+   10612:	8585                	srai	a1,a1,0x1
+   10614:	c589                	beqz	a1,1061e <register_tm_clones+0x26>
+   10616:	00000793          	li	a5,0
+   1061a:	c391                	beqz	a5,1061e <register_tm_clones+0x26>
+   1061c:	8782                	jr	a5
+   1061e:	8082                	ret
+
+0000000000010620 <__do_global_dtors_aux>:
+   10620:	1141                	addi	sp,sp,-16
+   10622:	e022                	sd	s0,0(sp)
+   10624:	85018413          	addi	s0,gp,-1968 # 12050 <completed.0>
+   10628:	00044783          	lbu	a5,0(s0)
+   1062c:	e406                	sd	ra,8(sp)
+   1062e:	e791                	bnez	a5,1063a <__do_global_dtors_aux+0x1a>
+   10630:	fabff0ef          	jal	ra,105da <deregister_tm_clones>
+   10634:	4785                	li	a5,1
+   10636:	00f40023          	sb	a5,0(s0)
+   1063a:	60a2                	ld	ra,8(sp)
+   1063c:	6402                	ld	s0,0(sp)
+   1063e:	0141                	addi	sp,sp,16
+   10640:	8082                	ret
+
+0000000000010642 <frame_dummy>:
+   10642:	bf5d                	j	105f8 <register_tm_clones>
+
+0000000000010644 <main>:
+#ifdef CONSOLE_UART
+#include "ns16550.h"
+#endif
+
+int main (int argc, char *argv[])
+{
+   10644:	fd010113          	addi	sp,sp,-48
+   10648:	02113423          	sd	ra,40(sp)
+   1064c:	02813023          	sd	s0,32(sp)
+   10650:	03010413          	addi	s0,sp,48
+   10654:	00050793          	mv	a5,a0
+   10658:	fcb43823          	sd	a1,-48(s0)
+   1065c:	fcf42e23          	sw	a5,-36(s0)
+#ifdef CONSOLE_UART
+	// This directly uses a UART instead of fgetc()
+	// which requires setup of interrupt-handling
+	ch = ns16550_rxchar();
+#else
+	ch = fgetc (stdin);
+   10660:	8401b783          	ld	a5,-1984(gp) # 12040 <stdin@GLIBC_2.27>
+   10664:	00078513          	mv	a0,a5
+   10668:	f29ff0ef          	jal	ra,10590 <fgetc@plt>
+   1066c:	00050793          	mv	a5,a0
+   10670:	fef42623          	sw	a5,-20(s0)
+#endif
+
+	if ((ch == EOF) || (ch == 4))
+   10674:	fec42783          	lw	a5,-20(s0)
+   10678:	0007871b          	sext.w	a4,a5
+   1067c:	fff00793          	li	a5,-1
+   10680:	02f70663          	beq	a4,a5,106ac <main+0x68>
+   10684:	fec42783          	lw	a5,-20(s0)
+   10688:	0007871b          	sext.w	a4,a5
+   1068c:	00400793          	li	a5,4
+   10690:	00f70e63          	beq	a4,a5,106ac <main+0x68>
+	    break;
+	fputc (ch, stdout);
+   10694:	8481b703          	ld	a4,-1976(gp) # 12048 <stdout@GLIBC_2.27>
+   10698:	fec42783          	lw	a5,-20(s0)
+   1069c:	00070593          	mv	a1,a4
+   106a0:	00078513          	mv	a0,a5
+   106a4:	eddff0ef          	jal	ra,10580 <fputc@plt>
+	ch = fgetc (stdin);
+   106a8:	fb9ff06f          	j	10660 <main+0x1c>
+    }
+    return 0;
+   106ac:	00000793          	li	a5,0
+}
+   106b0:	00078513          	mv	a0,a5
+   106b4:	02813083          	ld	ra,40(sp)
+   106b8:	02013403          	ld	s0,32(sp)
+   106bc:	03010113          	addi	sp,sp,48
+   106c0:	00008067          	ret
+
+00000000000106c4 <__libc_csu_init>:
+   106c4:	7139                	addi	sp,sp,-64
+   106c6:	f822                	sd	s0,48(sp)
+   106c8:	f04a                	sd	s2,32(sp)
+   106ca:	00001797          	auipc	a5,0x1
+   106ce:	73e78793          	addi	a5,a5,1854 # 11e08 <__do_global_dtors_aux_fini_array_entry>
+   106d2:	00001417          	auipc	s0,0x1
+   106d6:	72e40413          	addi	s0,s0,1838 # 11e00 <__frame_dummy_init_array_entry>
+   106da:	fc06                	sd	ra,56(sp)
+   106dc:	f426                	sd	s1,40(sp)
+   106de:	ec4e                	sd	s3,24(sp)
+   106e0:	e852                	sd	s4,16(sp)
+   106e2:	e456                	sd	s5,8(sp)
+   106e4:	40878933          	sub	s2,a5,s0
+   106e8:	02878163          	beq	a5,s0,1070a <__libc_csu_init+0x46>
+   106ec:	89aa                	mv	s3,a0
+   106ee:	8a2e                	mv	s4,a1
+   106f0:	8ab2                	mv	s5,a2
+   106f2:	40395913          	srai	s2,s2,0x3
+   106f6:	4481                	li	s1,0
+   106f8:	601c                	ld	a5,0(s0)
+   106fa:	8656                	mv	a2,s5
+   106fc:	85d2                	mv	a1,s4
+   106fe:	854e                	mv	a0,s3
+   10700:	0485                	addi	s1,s1,1
+   10702:	9782                	jalr	a5
+   10704:	0421                	addi	s0,s0,8
+   10706:	ff24e9e3          	bltu	s1,s2,106f8 <__libc_csu_init+0x34>
+   1070a:	70e2                	ld	ra,56(sp)
+   1070c:	7442                	ld	s0,48(sp)
+   1070e:	74a2                	ld	s1,40(sp)
+   10710:	7902                	ld	s2,32(sp)
+   10712:	69e2                	ld	s3,24(sp)
+   10714:	6a42                	ld	s4,16(sp)
+   10716:	6aa2                	ld	s5,8(sp)
+   10718:	6121                	addi	sp,sp,64
+   1071a:	8082                	ret
+
+000000000001071c <__libc_csu_fini>:
+   1071c:	8082                	ret
