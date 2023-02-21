@@ -4,3 +4,5 @@ Verilator_*
 exe_HW_AWSF1_sim
 trace_*
 disk.img
+AWS_CL_Catamaran
+AWS_CL_Catamaran_for_AWS_HDK.tar.gz
